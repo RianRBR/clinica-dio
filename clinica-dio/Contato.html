@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html" class="menu-texto">Home</a></li>
+                <li><a href="Sobre.html" class="menu-texto">Sobre</a></li>
+                <li><a href="Horarios.html" class="menu-texto">Horários</a></li>
+                <li><a href="Local.html" class="menu-texto">Local no mapa</a></li>
+                <li><a href="Contato.html" class="menu-texto">Contato</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="assets/imagem-banner-clinica.jpeg" alt="mulher utilizando microscópio para pesquisas." title="Banner principal da clínica.">
+            </div>
+    
+            <div class="content container conteudo">
+                <!-- Aqui vai o seu conteúdo 
+                <div>
+                    <form class="formulario"  method="get">
+                        <label class="formulario">Nome*:</label><input type="text" name="name"><br>
+                        <label class="formulario">Telefone*:</label><input type="number" name="number"><br>
+                        <label class="formulario">E-mail*:</label><input type="email" name="email"><br>
+                        <label class="formulario">O que você precisa?</label>
+                        <select name="role" class="formulario" >
+                            <option Value="" disabled selected>Escolha sua necessidade</option>
+                            <option Value="contato">Contato</option>
+                            <option Value="orcamento">Orçamento</option>
+                            <option Value="manipulacao">Manipulação</option>
+                            <option Value="fornecimento">Fornecimento</option>
+                            <option Value="duvida">Dúvidas</option>
+                        </select><br>
+                        <label class="formulario" >Mensagem:</label>
+                        <textarea rows="5" cols="20" name="mensagem"></textarea><br>
+
+
+                        <button  type="submit" >Enviar</button>
+                    </form>-->
+                        <div>
+                           
+                            <form onsubmit="" method="post">
+                              <div class="row input-container">
+                                <div class="col-xs-12">
+                                  <div class="styled-input wide">
+                                    <input type="text" id="nome" name="nome" autocomplete="off" required />
+                                    <label for="nome">Nome</label>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="styled-input email:focus ~ label">
+                                    <input type="email" id="email" name="email" autocomplete="off" required />
+                                    <label for="email">E-mail</label>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="styled-input phone-input">
+                                    <input type="number" min="0" max="99999999999" id="telefone" name="telefone" autocomplete="off" required />
+                                    <label for="telefone">Telefone</label>
+                                  </div>
+                                </div>
+                                <div class="col-xs-12">
+                                  <div class="styled-input wide">
+                                    <textarea id="mensagem" name="mensagem" autocomplete="off" required></textarea>
+                                    <label for="mensagem">Mensagem</label>
+                                  </div>
+                                </div>
+                                <div class="col-xs-12">
+
+
+                                    
+                                    <button role="button" class="button-name" >Enviar mensagem</button>  
+
+
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+             </div>
+
+            
+    
+            <div class="footer imagem-footer">
+                <img id="imagem" src="assets/frascos-com-estudos1.png" alt="Frascos com vírus a serem estudados.">
+                <label id="texto">Desenvolvido por Rian Reuber</label >
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
